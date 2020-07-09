@@ -1,0 +1,56 @@
+What is TestNG and its benefits:
+*******************
+TestNG: Unit test framework
+Also called TDD( Test driven development)
+
+
+Purpose is design test cases in a well formated structure, systematic way
+Generates good HTML Reports
+Provide Annotations
+define the Priorities/sequence of the design
+
+Can define test case dependency
+
+Supports grouping
+Data provider
+
+
+
+Its an Open source tool, free =jar files
+
+Also known as - Java Unit (JUnit) testing framework. works only with Java testing framework
+***************************
+
+How to install TestNG:
+*****************
+TestNG plug-in to be installed:
+http://beust.com/eclipse 
+or
+http://dl.bintray.com/testng-team/testng-eclipse-release/
+
+*************
+every method is prefixed via Annotations and should be associated with a method
+
+Annotations starts with @Before: are for used for preconditions
+
+Annotations Starts with @Test: actual test case
+
+Annotations Starting with @After : are used for Post conditions
+Test Flow or sequence is very important
+
+groups test cases and annotations in groups like below
+Before method
+Test
+After Method
+
+Conditions within Test Method
+groups
+priority
+dependsOnMethods
+invocationCount
+timeOut
+
+
+
+
+
